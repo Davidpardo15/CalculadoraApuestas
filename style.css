@@ -1,0 +1,329 @@
+body {
+  background-image: url(https://d2yoo3qu6vrk5d.cloudfront.net/pulzo-lite/jsons/rushbet/native/BG-DESKTOP.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p{
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+}
+.calculadora {
+
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 15% 75% 15%;
+  height: auto;
+  word-wrap: break-word;
+}
+
+.logo{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width: 180px;
+  margin-left: 100px
+}
+.sec1{
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 33.3% 33.3% 33.3%;
+}
+.sec1 .item2{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.sec1 .imagen1{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 100px;
+  padding-left: 90px;
+
+}
+.sec1 .rectangulo{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+}
+.sec1 .imagen2{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 100px;
+  padding-left: 90px;
+}
+.sec1 .empate{
+  display: flex;
+  margin-top: 0%;
+  justify-content: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  font-size:1rem;
+  text-align: center;
+  color: white;
+  
+}
+
+.sec1 .tyc{
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+  justify-content: flex-end;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  font-size:0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+}
+.cal {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #022248;
+    padding: 1rem;
+    border-radius: 30px;
+    border: none;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    box-shadow: 9px 13px 28px -8px rgba(0,0,0,0.75);
+}
+.sec1 .cuota1{
+  margin-left: 80px;
+  margin-top: 30px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  width: 80px; 
+  height: 30px; 
+  border: none;
+  border-radius: 1.5rem;
+  background: #022248;
+  text-align: center;
+  line-height: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+}
+.sec1 .cuota2{
+  margin-left: 30px;
+  margin-top: 30px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  width: 80px; 
+  height: 30px;  
+  border: none;
+  border-radius: 1.5rem;
+  background: #022248;
+  text-align: center;
+  line-height: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+}
+.sec1 .cuota3{
+  margin-left: 130px;
+  margin-top: 30px;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  width: 80px; 
+  height: 30px; 
+  border: none;
+  border-radius: 1.5rem;
+  background: #022248;
+  text-align: center;
+  line-height: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+}
+.cal p {
+    font-family: Impact;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.precio{
+  margin-bottom: 3%;
+  border: none;
+  border-radius: 3rem;
+  padding: .7rem .8rem;
+  text-align: center;
+  color: #022248;
+}
+.gana{
+  margin-bottom: 8%;
+  border: none;
+  border-radius: 3rem;
+  padding: .7rem .8rem;
+  text-align: center;
+  color: #022248;
+}
+
+
+.boton{
+  background-color: #fcc307;
+  color: #022248;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 2.5rem;
+  margin-bottom: 0rem;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  border:none;
+  margin-bottom: 3%;
+  box-shadow: 5px 5px 2px 0px rgba(2,34,72,1);
+}
+.boton:hover{
+  cursor: pointer;
+}
+
+.botonapuesta{
+
+  background-color: #fcc307;
+  color: #022248;
+  display: flex;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 0rem;
+  padding: .5rem 2rem;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  border:none;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  box-shadow: 5px 5px 2px 0px rgba(2,34,72,1);
+}
+.botonapuesta:hover{
+  cursor: pointer;
+}
+.refresh {
+  width: 20px;
+  align-items: flex-start;
+}
+
+.item2 { 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  font-weight: 300;
+}
+
+.rectangulo {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #facd3f;
+    padding: .6rem;
+    border: none;
+    width: 100px;
+    height: 10;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:25px;
+    text-align: center;
+    color: #022248;
+}
+
+.brasil {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+  margin-left: 150px;
+}
+.argentina {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-left: 150px;
+}
+
+.empates {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+  margin-left: 100px;
+}
+
+input[type="radio"]{
+  display: none;
+}
+input[type="radio"] + label
+{
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px;
+    cursor:pointer;
+}
+input[type="radio"]:checked + label
+{
+    background-image:url(https://d2yoo3qu6vrk5d.cloudfront.net/pulzo-lite/jsons/rushbet/native/Check.png);
+}
+@media screen and (max-width: 812px){
+	body{
+    background-image: url(https://d2yoo3qu6vrk5d.cloudfront.net/pulzo-lite/jsons/rushbet/native/BG-MOBILE.jpg)
+  }
+  .calculadora {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .cal {   
+      width: 60%;
+  }
+  .cal .tyc{
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  footer p{
+    grid-column-start:1 ;
+    grid-column-end: 2;
+  }
+  .item2{
+    color: #022248;
+  }
+}
